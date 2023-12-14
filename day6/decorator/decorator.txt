@@ -1,0 +1,12 @@
+Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it
+
+@decorator_number
+def hello_decorator():
+    print("hello")
+
+Above code is equivalent to -
+
+def hello_decorator():
+    print("hello")
+
+hello_decorator = decorator_number(hello_decorator)

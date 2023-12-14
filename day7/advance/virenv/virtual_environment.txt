@@ -1,0 +1,27 @@
+What is it?
+A virtual environment is a kind of sandbox for Python projects.
+It keeps your project dependencies (like libraries and packages) separate from the rest of your computer.
+
+Why use it?
+Imagine you're working on two different projects, and they need different versions of the same library. A virtual environment helps you keep them separate.
+It prevents conflicts and confusion between different projects.
+
+How to create one?
+Open your terminal or command prompt.
+Navigate to your project folder.
+Run: python -m venv myenv (Replace myenv with the name you want for your environment).
+
+How to activate it?
+On Windows: myenv\Scripts\activate
+On MacOS/Linux: source myenv/bin/activate
+When activated, you'll see the environment name in your terminal prompt.
+Installing Packages:
+
+While the environment is active, any Python packages you install (pip install ...) will be specific to that environment.
+
+Deactivating:
+When you're done working on your project, just type deactivate in the terminal to leave the virtual environment.
+
+Benefits:
+Keeps your project clean and avoids conflicts with other projects.
+Easy to share your project with others. They can create their own virtual environment with the same dependencies.
